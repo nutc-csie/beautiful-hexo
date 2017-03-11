@@ -1,21 +1,22 @@
 navbar-links:
+    Home: /
     Archive: /archives
-    Github: https://github.com/twoyao/beautiful-hexo
+    Github: https://github.com/nutc-csie
     About: /about/
 
-avatar: /hexo.png
-favicon: /hexo.png
+avatar: /home-logo.png
+favicon: /logo.png
 
 header:
-    title: "Beautiful Hexo"
-    motto: Build a beautiful and simple website in minutes
+    title: "資訊工程系友會"
+    motto: Department of Computer Science and Information Engineering of NUTC.
     bigimgs:
         - src: /bigimgs/01.jpg
-          desc: beautiful island
+          desc: 台北系聚會
         - src: /bigimgs/02.jpg
-          desc: Tropical Fish
+          desc: i.m.a.c Team
         - src: /bigimgs/03.jpg
-          desc: ocean
+          desc: 資訊工程系
 
 rss: /atom.xml
 googlefonts:
@@ -29,50 +30,39 @@ highlight:
   style_path: "/css/highlight.css"
 
 footer:
-  facebook:
-    link: # your link e.g. https://...
-    title: Facebook
+  faceook:
+    link: 'https://www.facebook.com/groups/115495931497/'
+    title: 國立台中科技大學資訊與流通學院系友會
     icon: fa-facebook
-    enalbe: false
-  weibo:
-    link: 'http://weibo.com/bisyao?is_all=1'
-    title: Weibo
-    icon: fa-weibo
-    enalbe: true
+    enable: true
+  facebook:
+    link: 'https://www.facebook.com/NUTCimac'
+    title: NUTC i.m.a.c
+    icon: fa-facebook-official
+    enable: true
   github:
-    link: 'https://github.com/twoyao'
+    link: 'https://github.com/nutc-csie'
     title: GitHub
     icon: fa-github
+    enable: true
+  link:
+    link: 'http://csie.nutc.edu.tw/'
+    title: 國立台中科技大學資訊工程系
+    icon: fa-university
+    enable: true
+  mail:
+    link: 'mailto:nutc.csie17@gmail.com'
+    title: 連絡我們
+    icon: fa-envelope
     enable: true
   rss:
     link: '/atom.xml'
     title: RSS
     icon: fa-rss
     enable: true
-  twitter:
-    link: 'https://twitter.com/twoyao_'
-    title: Twitter
-    icon: fa-twitter
-    enable: true
-  mail:
-    link: 'mailto:bisyao@gmail.com'
-    title: Email me
-    icon: fa-envelope
-    enable: true
-  linkin:
-    link: # your link here e.g. http...
-    title: LinkedIn
-    icon: fa-linkedin
-    enable: false
-  stackoverflow:
-    link: # your link here e.g. http...
-    title: StackOverflow
-    icon: fa-stack-overflow
-    enable: false
 
 google_analytics:
 
 comment:
   enable: true
-  disqus: twoyao
-
+  disqus: nutccsie
